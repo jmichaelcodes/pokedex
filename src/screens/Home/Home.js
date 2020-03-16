@@ -6,7 +6,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import TextField from '@material-ui/core/TextField'
 
 import './Home.css'
-import ListItem from '../../components/ListItem'
+import ListItem from '../../components/ListItem/ListItem'
 
 const masterTypes = ['Bug', 'Dragon', 'Electric', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Water']
 
