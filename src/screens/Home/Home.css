@@ -1,0 +1,27 @@
+.container {
+    background-color: #FFFEEB;
+    min-height: 100vh
+  }
+  
+  h3 {
+    margin: 0px 0px 15px 0px
+  }
+  
+  .search-button {
+    background-color: lightgrey !important;
+    margin-left: 10px !important
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-title {
+    margin-top: 0px
+  }
+  
+  .textfield {
+    margin-bottom: 20px !important;
+    width: 100% !important
+  }

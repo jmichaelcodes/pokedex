@@ -1,0 +1,24 @@
+p {
+    margin: 0;
+    margin-left: 10px;
+    /* display: inline-block */
+}
+
+.detailHeader {
+    font-weight: bold;
+}
+
+.id {
+    flex: 1
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.list-section {
+    flex: 3
+}
