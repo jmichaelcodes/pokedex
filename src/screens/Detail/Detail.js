@@ -25,7 +25,14 @@ function Detail({ }) {
           <Link to={'/'}>
             <ArrowBackIcon />
           </Link>
-          <h1>{data.name}</h1>
+          <div style={{ display: 'flex', flexDirection: 'row'}}>
+          <h1>{data.name}   </h1>
+          {Number(number) <= 150 ? (
+          <Link to={`/detail/${Number(number) + 1}`}>
+            <h1>(Next)</h1>
+          </Link>
+          ) : null}
+          </div>
           <img src={data.img} />
           <p className='detail-header'>Number:</p>
           <p>{data.num}</p>
